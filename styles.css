@@ -1,0 +1,36 @@
+body,main
+	 {
+	     display:flex;
+	 }
+body
+{
+    flex-direction:column;
+}
+main
+{
+    flex:auto;
+    flex:direction:row;
+    background-color:#F4C7AB;
+}
+header
+{
+    background-color:#FFF5EB;
+}
+footer
+{
+    background-color:#DEEDF0;
+}
+article
+{
+    flex:2;
+    overflow-y: auto;
+}
+aside
+{
+    flex:1;
+    overflow-y:auto;
+}
+ul
+{
+    font-size:25px;
+}
